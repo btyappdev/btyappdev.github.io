@@ -4,7 +4,7 @@ window.PH_DATA = {
             "meta.title": "Terms of Service - LovZ",
             "header.title": "TERMS OF SERVICE & EULA",
             "header.subtitle": "LOVZ TERMS OF SERVICE & END USER LICENSE AGREEMENT (EULA)",
-            "header.date": "Effective Date: March 1, 2026",
+            "header.date": "Effective Date: June 24, 2026",
             "app.name_label": "App Name:",
             "app.contact_label": "Contact:",
             "app.link_label": "App Link:",
