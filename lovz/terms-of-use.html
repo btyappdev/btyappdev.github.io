@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use - LovZ</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="brand-section">
+            <div class="app-icon">
+                <img src="app_icon_1-remove-background.png" alt="LovZ Icon">
+            </div>
+            <div class="brand-info">
+                <h1>LovZ</h1>
+            </div>
+        </div>
+
+        <div class="lang-container">
+            <button class="lang-btn" id="lang-menu-btn">
+                <span id="current-lang-flag">🇺🇸</span>
+                <span id="current-lang-name">English</span>
+                <span style="font-size: 0.7em; opacity: 0.7;">▼</span>
+            </button>
+            <div class="lang-dropdown" id="lang-dropdown">
+                <!-- Options injected by JS -->
+            </div>
+        </div>
+    </header>
+
+    <div class="layout-container">
+        <!-- Sidebar Navigation (Contents) -->
+        <aside class="sidebar-sticky">
+            <div class="contents-box" id="contents-box">
+                <div class="contents-header" id="contents-toggle">
+                    <h3>Contents</h3>
+                    <span class="contents-toggle-icon">▼</span>
+                </div>
+                <nav class="contents-list" id="contents-list">
+                    <!-- Links injected by JS -->
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="hero-text">
+                <h2 id="page-title">Terms of Use</h2>
+                <p class="hero-sub">
+                    <span id="app-name-label">App Name:</span> <strong style="color:var(--text-main)">"LovZ"</strong> ·
+                    <span id="contact-label">Contact:</span> <a href="mailto:betultosunios@gmail.com"
+                        style="color:var(--primary)">betultosunios@gmail.com</a><br>
+                    <span id="app-link-label">App Link:</span> <a href="https://apps.apple.com/app/id6774356252"
+                        target="_blank" style="color:var(--primary)">https://apps.apple.com/app/id6774356252</a>
+                </p>
+                <p id="page-subtitle" style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-secondary)"></p>
+            </div>
+
+            <div id="policy-sections-container">
+                <!-- Sections Injected by JS -->
+            </div>
+
+            <div class="footer-note" id="footer-text">
+                <!-- Footer Injected -->
+            </div>
+        </main>
+    </div>
+
+    <button id="back-to-top" class="back-to-top">↑ Back to top</button>
+
+    <!-- Data -->
+    <script src="terms_locales.js"></script>
+    <!-- Logic -->
+    <script src="script.js"></script>
+</body>
+
+</html>
