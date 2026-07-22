@@ -1,0 +1,6 @@
+# Firebase CLI debug output (regenerated on any failed command — contains account email)
+firebase-debug.log
+*.log
+
+# macOS
+.DS_Store
